@@ -58,10 +58,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
-    <Content Include="DilbertUAT.gif" />
     <Content Include="img\development.jpg" />
     <Content Include="img\local.jpg" />
-    <Content Include="img\production.jpeg" />
+    <Content Include="img\production.jpg" />
     <Content Include="img\uat.gif" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -76,6 +75,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -109,6 +109,7 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
+  <Import Project="..\packages\OctoPack.2.0.26\targets\OctoPack.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
