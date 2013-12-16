@@ -58,6 +58,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="DilbertUAT.gif" />
+    <Content Include="img\development.jpg" />
+    <Content Include="img\local.jpg" />
+    <Content Include="img\production.jpeg" />
+    <Content Include="img\uat.gif" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -78,6 +83,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
